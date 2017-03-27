@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ButterKniffeWenld.iml" filepath="$PROJECT_DIR$/ButterKniffeWenld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inject-annotion/inject-annotion.iml" filepath="$PROJECT_DIR$/inject-annotion/inject-annotion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inject-compiler/inject-compiler.iml" filepath="$PROJECT_DIR$/inject-compiler/inject-compiler.iml" />
+    </modules>
+  </component>
+</project>
