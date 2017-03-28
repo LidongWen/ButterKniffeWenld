@@ -28,13 +28,18 @@ ext {
     compileSdkVersion = 25
     buildToolsVersion = '25.0.2'
     supportLibraryVersion = '25.1.1'
+    constraintLayoutVersion = '1.0.0-beta5'
 }
 
 ext.deps = [
         // Android
-        android: 'com.google.android:android:4.1.1.4',
+        android           : 'com.google.android:android:4.1.1.4',
+
+        appcompatV7       : "com.android.support:appcompat-v7:$ext.supportLibraryVersion",
 
         supportAnnotations: "com.android.support:support-annotations:$ext.supportLibraryVersion",
 
-        javapoet: 'com.squareup:javapoet:1.8.0',
+        constraintLayout  : "com.android.support.constraint:constraint-layout:$ext.constraintLayoutVersion",
+
+        javapoet          : 'com.squareup:javapoet:1.8.0',
 ]
