@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.neenbedankt.android-apt'
+//apply plugin: 'com.neenbedankt.android-apt'
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
@@ -28,5 +28,5 @@ dependencies {
     compile deps.constraintLayout
     testCompile 'junit:junit:4.12'
     compile project(':inject-annotion')
-    apt project(':inject-compiler')
+    annotationProcessor  project(':inject-compiler')
 }
