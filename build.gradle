@@ -42,4 +42,7 @@ ext.deps = [
         constraintLayout  : "com.android.support.constraint:constraint-layout:$ext.constraintLayoutVersion",
 
         javapoet          : 'com.squareup:javapoet:1.8.0',
+
+        autoservice: 'com.google.auto.service:auto-service:1.0-rc3',
+        autocommon: 'com.google.auto:auto-common:0.6',
 ]

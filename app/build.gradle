@@ -27,6 +27,6 @@ dependencies {
     compile deps.appcompatV7
     compile deps.constraintLayout
     testCompile 'junit:junit:4.12'
-    compile project(':inject-compiler')
+    compile project(':inject-annotion')
     apt project(':inject-compiler')
 }

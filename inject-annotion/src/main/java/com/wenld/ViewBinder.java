@@ -1,8 +1,8 @@
-package wenld.github.butterkniffewenld;
+package com.wenld;
 
 /**
  * <p/>
- * Author: 温利东 on 2017/3/28 14:42.
+ * Author: wenld on 2017/3/28 14:42.
  * blog: http://blog.csdn.net/sinat_15877283
  * github: https://github.com/LidongWen
  */

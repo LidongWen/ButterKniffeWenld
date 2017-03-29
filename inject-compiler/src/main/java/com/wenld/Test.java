@@ -32,6 +32,7 @@ public class Test {
                         .addStatement("$T.out.println($S)", System.class, "hello world")
                         .build();
 
+
         MethodSpec fore = MethodSpec.methodBuilder("fore")
                 .returns(int.class)
                 .addStatement("int result = 0")
