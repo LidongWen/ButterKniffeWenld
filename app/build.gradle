@@ -28,5 +28,6 @@ dependencies {
     compile deps.constraintLayout
     testCompile 'junit:junit:4.12'
     compile project(':inject-annotion')
-    annotationProcessor  project(':inject-compiler')
+    annotationProcessor project(':inject-compiler')
+    compile deps.supportAnnotations
 }
